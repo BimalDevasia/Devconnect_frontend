@@ -1,113 +1,74 @@
-🚀 DevConnect
-DevConnect is a full-stack developer community platform where coders can interact, share posts, and collaborate on projects as a group. Built with a React.js frontend and a FastAPI backend, it offers a space for developers of all levels to connect and grow together.
+# 🚀 **DevConnect**
 
-📌 Table of Contents
-🧠 About the Project
+DevConnect is a full-stack developer community platform where coders can **interact, share posts, and collaborate on projects as a group**. Built with a **React.js frontend** and a **FastAPI backend**, it offers a space for developers of all levels to connect and grow together.
 
-✨ Features
+---
 
-🛠️ Tech Stack
+## 📌 Table of Contents
 
-⚙️ Installation
+- [🧠 About the Project](#-about-the-project)
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#-tech-stack)
+- [⚙️ Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [📬 Contact](#-contact)
 
-🚀 Usage
+---
 
-🖼️ Screenshots
+## 🧠 About the Project
 
-🤝 Contributing
-
-📄 License
-
-📬 Contact
-
-🧠 About the Project
 DevConnect aims to be the go-to platform for developers to:
 
-Connect with other like-minded individuals
+- 🤝 Connect with other like-minded individuals  
+- 📝 Share technical posts and updates  
+- 👨‍💻 Start or join real-world projects as a group  
+- 🌐 Build meaningful developer networks  
 
-Share technical posts and updates
+Whether you're a **beginner looking for guidance** or an **experienced dev wanting to collaborate**, DevConnect brings the community together under one roof.
 
-Start or join real-world projects as a group
+---
 
-Build meaningful developer networks
+## ✨ Features
 
-Whether you're a beginner looking for guidance or an experienced dev wanting to share knowledge and collaborate, DevConnect brings the community together under one roof.
+- 🗨️ **Post Sharing** – Upload and view posts from developers around the world  
+- 👥 **Group Collaboration** – Create or join project groups to build something together  
+- 🔍 **User Profiles** – Showcase your skills, bio, and projects  
+- 📢 **Feed System** – Stay updated with posts from people you follow  
+- 🔐 **Authentication** – Secure login and registration system  
+- 💬 **Interactive UI** – Responsive design for smooth user experience across devices  
 
-✨ Features
-🗨️ Post Sharing – Upload and view posts from developers around the world
+---
 
-👥 Group Collaboration – Create or join project groups to build something together
+## 🛠️ Tech Stack
 
-🔍 User Profiles – Showcase your skills, bio, and projects
+### 🔹 Frontend
+- React.js  
+- Tailwind CSS / CSS Modules  
+- Axios (API calls)  
+- React Router  
 
-📢 Feed System – Stay updated with posts from people you follow
+### 🔹 Backend
+- FastAPI (Python)  
+- PostgreSQL (Database)  
+- SQLAlchemy ORM  
+- JWT for Authentication  
 
-🔐 Authentication – Secure login and registration system
+### 🔹 Others
+- Git & GitHub (Version Control)  
 
-💬 Interactive UI – Responsive design for smooth user experience across devices
+---
 
-🛠️ Tech Stack
-Frontend:
+## ⚙️ Installation
 
-React.js
+### 1. Clone the Repository
 
-Tailwind CSS / CSS Modules (as applicable)
-
-Axios (for API calls)
-
-React Router 
-
-Backend:
-
-FastAPI (Python)
-
-PostgreSQL  (Database)
-
-SQLAlchemy ORM
-
-JWT for Authentication
-
-Others:
-
-
-Git & GitHub (Version Control)
-
-⚙️ Installation
-Clone the repository
-
-bash
-Copy
-Edit
-git clone  https://github.com/BimalDevasia/Devconnect_frontend.git
+```bash
+git clone https://github.com/BimalDevasia/Devconnect_frontend.git
 cd Devconnect_frontend
-Frontend Setup
+```
+### 2. Frontend Setup
 
-bash
-Copy
-Edit
-cd Devconnect_frontend
+```bash
 npm install
-npm start
-
-Configure .env files for  frontend as needed.
-
-🚀 Usage
-Register or log in to your account
-
-Create and interact with posts
-
-Search and join project groups
-
-Update your developer profile
-
-Connect with other developers
-
-
-
-
-
-📬 Contact
-💻 Developer: Bimal Devasia
-
-📧 Email: bimaldevasia
-
+npm run dev
+```
